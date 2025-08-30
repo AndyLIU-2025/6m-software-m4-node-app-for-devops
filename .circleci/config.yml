@@ -55,10 +55,6 @@ jobs:
       - run:  
           name: Build and Push Docker Image
           command: |  
-              #heroku container:login
-              #heroku stack:set container -a shennan-su-devops
-              #heroku container:push web -a shennan-su-devops
-              #heroku container:release web -a shennan-su-devops
               IMAGE_NAME=andyliu2025sg/node-app
               IMAGE_TAG=latest
 
