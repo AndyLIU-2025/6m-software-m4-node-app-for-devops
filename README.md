@@ -1,6 +1,6 @@
 # Application for Software Engineering DevOps (Module 4)
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/codebyshennan/6m-software-m4-node-app-for-devops/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/codebyshennan/6m-software-m4-node-app-for-devops/tree/main)
+[![CircleCI](https://app.circleci.com/pipelines/github/AndyLIU-2025/6m-software-m4-node-app-for-devops?branch=main)
 
 ## Brief Introduction
 
