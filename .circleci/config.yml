@@ -49,9 +49,8 @@ jobs:
       #- heroku/install
       - checkout
       - run:
-          #name: Heroku Container Push
           name: Authenticate with Docker Hub
-          command: echo $DOCKERHUB_PASSWORD | docker login -u $DOCKERHUB_USERNAME --password-stdin
+          command: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_LOGIN" --password-stdin
       - run:  
           name: Build and Push Docker Image
           command: |  
