@@ -23,7 +23,9 @@ jobs:
           pkg-manager: npm
       - run: |
           echo "Running tests..."
-          npm run test
+          echo "npm run test:jest"
+          #  npm run test
+          jest
   
   publish:
     executor: docker/docker
