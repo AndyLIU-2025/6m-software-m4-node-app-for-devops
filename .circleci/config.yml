@@ -11,7 +11,7 @@ jobs:
       - checkout
       - node/install-packages:
           pkg-manager: npm
-          pkg-manager: jest
+          #pkg-manager: jest
       - run: |
           echo "Installing dependencies..."
           npm install
