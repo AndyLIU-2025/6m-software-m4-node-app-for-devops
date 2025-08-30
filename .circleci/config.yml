@@ -35,11 +35,11 @@ jobs:
       - checkout
       - docker/check:
           docker-username: DOCKERHUB_LOGIN  # DOCKER_LOGIN is the default value, if it exists, it automatically would be used.
-          docker-password: DOCKERHUB_PASSWORD  # DOCKER_PASSWORD is the default value
+          docker-password:    # DOCKER_PASSWORD is the default value
       - docker/build:
-          image: wongshennan/test_repository
+          image: andyliu2025sg/node-app
       - docker/push:
-          image: wongshennan/test_repository
+          image: andyliu2025sg/node-app
   deploy:
     docker:
       - image: cimg/node:16.10
