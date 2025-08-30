@@ -25,8 +25,8 @@ jobs:
       - run: |
           echo "Running tests..."
           echo "npm run test:jest"
-          #  npm run test
-          jest
+          npm run test
+          # jest
   
   publish:
     executor: docker/docker
